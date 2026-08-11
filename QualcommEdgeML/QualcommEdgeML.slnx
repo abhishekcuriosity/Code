@@ -1,0 +1,10 @@
+<Solution>
+  <Configurations>
+    <Platform Name="ARM64" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="01_scalar_int8_dot_product/01_scalar_int8_dot_product.vcxproj" Id="2ff90eef-8cdf-49fe-831d-31d265b0febe" />
+  <Project Path="02_neon_int8_dot_product/02_neon_int8_dot_product.vcxproj" Id="05da8278-6dd3-42d9-a720-4238ba3ca79f" />
+  <Project Path="03_sdot_int8_dot_product/03_sdot_int8_dot_product.vcxproj" Id="2107088d-403f-4bb0-be17-31f940e3f0bc" />
+</Solution>
