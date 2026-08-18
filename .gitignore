@@ -27,3 +27,15 @@ QualcommEdgeML/.git_backup/
 **/*.suo
 **/*.VC.db
 **/*.VC.VC.opendbQualcommEdgeML/.git_backup/
+
+
+# NuGet package cache
+packages/
+
+# Visual Studio user-specific settings
+*.vcxproj.user
+
+# Visual Studio build output
+.vs/
+**/ARM64/Debug/
+**/ARM64/Release/
