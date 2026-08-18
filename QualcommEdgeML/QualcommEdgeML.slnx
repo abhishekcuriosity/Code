@@ -9,4 +9,7 @@
   <Project Path="03_sdot_int8_dot_product/03_sdot_int8_dot_product.vcxproj" Id="2107088d-403f-4bb0-be17-31f940e3f0bc" />
   <Project Path="04_dot_product_benchmark/04_dot_product_benchmark.vcxproj" Id="79d865d5-7b47-4276-814f-67895f20f22b" />
   <Project Path="05_compiler_auto_vectorization/05_compiler_auto_vectorization.vcxproj" Id="aca48aec-2290-4331-b5d9-76bedfec14bd" />
+  <Project Path="06_scalar_fully_connected/06_scalar_fully_connected.vcxproj" Id="6b7e938d-76a1-4188-9591-228e41145046" />
+  <Project Path="07_neon_fully_connected/07_neon_fully_connected.vcxproj" Id="73b55900-5ba2-4af4-a763-9281ff308b23" />
+  <Project Path="08_onnx_oryon_cpu/08_onnx_oryon_cpu.vcxproj" Id="5ce2dffc-985a-4ee9-a6d3-2ade4ddca496" />
 </Solution>

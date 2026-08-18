@@ -26,24 +26,11 @@
       <Platform>ARM64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\..\Users\Aishwarya S M\Downloads\06_scalar_fully_connected\06_scalar_fully_connected\fully_connected_scalar.cpp">
-      <AssemblerOutput Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">AssemblyCode</AssemblerOutput>
-      <AssemblerListingLocation Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">$(IntDir)%(Filename).asm</AssemblerListingLocation>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\Users\Aishwarya S M\Downloads\06_scalar_fully_connected\06_scalar_fully_connected\main.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\..\..\Users\Aishwarya S M\Downloads\06_scalar_fully_connected\06_scalar_fully_connected\fully_connected.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\..\..\..\Users\Aishwarya S M\Downloads\README.md" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{6b7e938d-76a1-4188-9591-228e41145046}</ProjectGuid>
-    <RootNamespace>My06scalarfullyconnected</RootNamespace>
+    <ProjectGuid>{73b55900-5ba2-4af4-a763-9281ff308b23}</ProjectGuid>
+    <RootNamespace>My07neonfullyconnected</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -203,7 +190,6 @@
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <AdditionalOptions>/arch:armv8.0 %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -213,6 +199,23 @@
       <EnableSegmentHeap>true</EnableSegmentHeap>
     </Manifest>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\Users\Aishwarya S M\Downloads\07_neon_fully_connected\07_neon_fully_connected\fully_connected_neon.cpp">
+      <AssemblerOutput Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">AssemblyCode</AssemblerOutput>
+      <AssemblerListingLocation Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">$(IntDir)%(Filename).asm</AssemblerListingLocation>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Users\Aishwarya S M\Downloads\07_neon_fully_connected\07_neon_fully_connected\fully_connected_reference.cpp" />
+    <ClCompile Include="..\..\..\..\Users\Aishwarya S M\Downloads\07_neon_fully_connected\07_neon_fully_connected\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\..\Users\Aishwarya S M\Downloads\07_neon_fully_connected\07_neon_fully_connected\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\Users\Aishwarya S M\Downloads\07_neon_fully_connected\07_neon_fully_connected\fully_connected.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\Users\Aishwarya S M\Downloads\07_neon_fully_connected\07_neon_fully_connected\README.md" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

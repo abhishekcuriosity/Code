@@ -1,0 +1,12 @@
+Extract the official Windows ARM64 ONNX Runtime package here.
+
+Required layout:
+
+onnxruntime\
+  include\
+    onnxruntime_c_api.h
+    onnxruntime_cxx_api.h
+    ...
+  lib\
+    onnxruntime.lib
+    onnxruntime.dll

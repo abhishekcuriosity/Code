@@ -15,21 +15,11 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Users\Aishwarya S M\Downloads\06_scalar_fully_connected\06_scalar_fully_connected\main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\Users\Aishwarya S M\Downloads\06_scalar_fully_connected\06_scalar_fully_connected\fully_connected_scalar.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\Users\Aishwarya S M\Downloads\06_scalar_fully_connected\06_scalar_fully_connected\fully_connected.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\..\..\..\Users\Aishwarya S M\Downloads\README.md">
-      <Filter>Source Files</Filter>
-    </None>
+    <None Include="packages.config" />
   </ItemGroup>
 </Project>
